@@ -5,20 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Joseph Park</title>
     <style>
-        header {
-            background-color: #add8e6;
-            color: #fff;
-            padding: 50px;
-            text-align: center;
-        }
         body {
             font-family: 'comic sans ms';
             margin: 0;
             padding: 0;
             background-color: #b2ce9d;
         }
-        section {
+        header {
+            background-color: #add8e6;
+            color: #fff;
             padding: 50px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #add8e6;
+            padding: 10px 0;
+        }
+        nav a {
+            color: black;
+            text-decoration: none;
+            margin: 0 15px;
+            padding: 10px 20px;
+            border-radius: 5px;
+            background-color: #fdfd96;
+        }
+        nav a:hover {
+            background-color: #007bff;
+        }
+        section {
+            padding: 70px;
             text-align: center;
         }
         img {
@@ -32,12 +49,18 @@
         }
         .social-links a {
             display: inline-block;
-            margin: 30px;
+            margin: 10px;
             color: #fff;
             text-decoration: none;
         }
         .social-links a:hover {
             color: #007bff;
+        }
+        hr {
+            border: 0;
+            height: 30px;
+            background: #add8e6;
+            margin: 50px 0;
         }
     </style>
 </head>
@@ -45,16 +68,43 @@
 
 <header>
     <h1>Welcome to my Website!</h1>
-    <h3>I'm Joseph Park</h>
+    <h3>I'm Joseph Park</h3>
 </header>
 
+<nav>
+    <a href="#about">About Me</a>
+    <a href="#experience">Experience</a>
+    <a href="#projects">Projects</a>
+</nav>
+
 <section>
-    <img src="https://lh3.googleusercontent.com/pw/AP1GczN1kSKwbWtnVu9jNJa5ZhbtdDb9-TXFuI8NAtIIfSyhHFeWos6sqk4yDroWQbMHavom_hWQz1pxygFDIEqPjpPwH8fSkSFqxvkbjjIJ_DhlNdTAiV0YY2WLH5YZhYNZs2sziZNZEp89Ho-K9d3g3x3D=w959-h959-s-no-gm?authuser=0">
+    <img src="https://lh3.googleusercontent.com/pw/AP1GczN1kSKwbWtnVu9jNJa5ZhbtdDb9-TXFuI8NAtIIfSyhHFeWos6sqk4yDroWQbMHavom_hWQz1pxygFDIEqPjpPwH8fSkSFqxvkbjjIJ_DhlNdTAiV0YY2WLH5YZhYNZs2sziZNZEp89Ho-K9d3g3x3D=w959-h959-s-no-gm?authuser=0" alt="Joseph Park">
     <div class="social-links">
         <a href="https://github.com/josephpark0828" target="_blank">GitHub</a>
         <a href="https://www.linkedin.com/in/josephpark0828" target="_blank">LinkedIn</a>
         <a href="insert resume" target="_blank">Resume</a>
     </div>
+</section>
+
+<hr>
+
+<section id="about">
+    <h2>About Me</h2>
+    <p>Write about yourself here.</p>
+</section>
+
+<hr>
+
+<section id="experience">
+    <h2>Experience</h2>
+    <p>Write about your experience here.</p>
+</section>
+
+<hr>
+
+<section id="projects">
+    <h2>Projects</h2>
+    <p>Write about your projects here.</p>
 </section>
 
 </body>
